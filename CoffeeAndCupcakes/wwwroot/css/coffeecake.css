@@ -1,0 +1,145 @@
+﻿#page {
+
+}
+
+.hero {
+    width: 1200px;
+    height: 300px;
+    margin: 1% auto;
+    padding: 0px;
+    position: relative;
+}
+
+#hero-image {
+    display: inline;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    padding: 0px;
+    /*border: 1px solid black;*/
+}
+
+.user-activity {
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    left: 560px;
+    /*border: 1px solid black;*/
+    /*float: right;*/
+}
+
+    .user-activity a {
+        text-decoration: none;
+        padding: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+#right-nav {
+    float: right;
+}
+
+#left-nav {
+    float: left;
+}
+
+.nav-links {
+    position: relative;
+    display: inline-block;
+    top: 230px;
+    /*border: 1px solid black;*/
+    width: 400px;
+    text-align: center;
+}
+
+    .nav-links a {
+        padding: 30px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .nav-links a:hover {
+
+    }
+
+.store-image {
+
+}
+
+    .store-image img {
+        margin-top: 7%;
+        display: block;
+    }
+
+section {
+    padding: 0 30px;
+}
+
+    section.main {
+        /*position: relative;*/
+        margin: 7% auto;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+section.main aside {
+    width:33%; 
+    float:left;
+    text-align: center;
+}
+
+.info-text {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+/* !! Original !!*/
+
+/*.hero {
+    width: 960px;
+    height: 260px;
+    margin: 1% auto;
+    padding: 10px;
+    position: relative;
+    /*border: 1px solid black;
+}
+
+#hero-image {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+}
+
+.user-activity {
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    left: 720px;
+    float: right;
+}
+
+    .user-activity a {
+        text-decoration: none;
+        padding: 20px;
+    }
+
+.nav-links {
+    position: relative;
+    display: inline-block;
+    top: 230px;
+    left: 255px;
+}
+
+    .nav-links a {
+        padding: 35px;
+        text-decoration: none;*/
+    
