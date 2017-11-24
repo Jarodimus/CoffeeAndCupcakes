@@ -5,13 +5,34 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\images\**" />
+    <Content Remove="wwwroot\images\**" />
+    <EmbeddedResource Remove="wwwroot\images\**" />
+    <None Remove="wwwroot\images\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\images\beans.jpg" />
+    <Content Include="wwwroot\images\cclogo.jpg" />
+    <Content Include="wwwroot\images\fb.png" />
+    <Content Include="wwwroot\images\hero_background.jpg" />
+    <Content Include="wwwroot\images\hours.jpg" />
+    <Content Include="wwwroot\images\locales.jpg" />
+    <Content Include="wwwroot\images\locations.jpg" />
+    <Content Include="wwwroot\images\locations2.jpg" />
+    <Content Include="wwwroot\images\pin.png" />
+    <Content Include="wwwroot\images\st_capp.jpg" />
+    <Content Include="wwwroot\images\twt.png" />
+    <Content Include="wwwroot\images\welcome.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Bower" Version="1.3.11" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\lib\" />
   </ItemGroup>
 

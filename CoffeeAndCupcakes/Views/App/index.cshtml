@@ -6,12 +6,13 @@
                 <a href="#">About</a>
             </nav>
             <div id="hero-image">
-                <a class="hero-img" title="Coffee & Cupcakes" href="#"><img src="http://via.placeholder.com/400x300" alt="Coffee & Cupcakes Logo" /></a>
+                <a class="hero-img" title="Coffee & Cupcakes" href="#"><img src="~/images/cclogo.jpg" style="width:400px;height:300px;" alt="Coffee & Cupcakes Logo" /></a>
             </div>
-            @*<nav class="user-activity">
-                    <a href="#">Account</a>
-                    <a href="#"><i class="fa fa-cart-arrow-down"></i> Cart</a>
-                </nav>*@
+            <nav class="user-activity">
+                <a href="#"><img src="~/images/fb.png" alt="Facebook" /></a>
+                <a href="#"><img src="~/images/pin.png" alt="Pinterest" /></a>
+                <a href="#"><img src="~/images/twt.png" alt="Twitter" /></a>
+            </nav>
             <nav id="right-nav" class="nav-links">
                 <a href="#">Menu</a>
                 <a href="#">Contact</a>
@@ -19,9 +20,11 @@
         </div>
     </header>
 
+    @*"http://via.placeholder.com/150x150"*@
+
     <section class="info">
         <aside>
-            <img src="http://via.placeholder.com/150x150" class="info-img" alt="Coffee & Cupcakes Logo"/>
+            <img src="~/images/locales.jpg" class="info-img" style="width:175px;height:175px;" alt="Coffee & Cupcakes Logo" />
             <div class="info-text">
                 <h3>Our Locations</h3>
                 <p>Misty Mountains (999).999.9999</p>
@@ -30,7 +33,7 @@
             </div>
         </aside>
         <aside>
-            <img src="http://via.placeholder.com/150x150" class="info-img" alt="Coffee & Cupcakes Logo"/>
+            <img src="~/images/hours.jpg" class="info-img" style="width:175px;height:175px;" alt="Coffee & Cupcakes Logo" />
             <div class="info-text">
                 <h3>Hours</h3>
                 <p>Mon to Fri 5am-9pm</p>
@@ -38,17 +41,17 @@
             </div>
         </aside>
         <aside>
-            <img src="http://via.placeholder.com/150x150" class="info-img" alt="Coffee & Cupcakes Logo"/>
+            <img src="~/images/st_capp.jpg" class="info-img" style="width:175px;height:175px;" alt="Coffee & Cupcakes Logo" />
             <div class="info-text">
                 <h3>Monthly Special</h3>
                 <p>Sweet Treat Cappucino</p>
                 <p><b>Price:</b> $3.75</p>
             </div>
-        </aside> 
+        </aside>
     </section>
 
     <section class="store">
-        <img src="http://via.placeholder.com/600x300" alt="Store Atmosphere"/>
+        <img src="~/images/welcome.jpg" style="width:600px;height:300px;" alt="Store Atmosphere" />
         <div class="welcome">
             <h2>Come Visit Us!</h2>
             <p>We offer a warm, friendly atmosphere served up with great coffee!<br /><br />Bring your friends or yourself and a good book and enjoy our delicious cupcakes and premium espresso.</p>
@@ -58,12 +61,27 @@
     <section class="parallax"></section>
 
     <footer>
-        <div>
-            <b>About</b>
-
+        <div class="details">
+            <div style="margin-top:20px;display:inline-block;">
+                <ul>
+                    <b>Locations</b>
+                    <li><a href="#">Misty Mountains</a></li>
+                    <li><a href="#">Gondor</a></li>
+                    <li><a href="#">Mirkwood</a></li>
+                </ul>
+            </div>
+            <div style="margin-top:20px;display:inline-block;">
+                <ul>
+                    <b>About</b>
+                    <li><a href="#">Our Coffee</a></li>
+                    <li><a href="#">Our Cupcakes</a></li>
+                    <li><a href="#">Work with Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div>
-
+        <div class="copyright">
+            &#9400 2017 Coffee and Cupcakes. Website by J.Abbadusky.
         </div>
     </footer>
 </div>

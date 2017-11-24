@@ -1,12 +1,14 @@
-﻿#page {
-}
-
-.hero {
+﻿.hero {
     width: 1200px;
     height: 300px;
     margin: 1% auto;
     padding: 0px;
     position: relative;
+    background-image: url(../images/hero_background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #hero-image {
@@ -15,22 +17,22 @@
     height: 300px;
     position: absolute;
     padding: 0px;
-    /*border: 1px solid black;*/
 }
 
 .user-activity {
-    position: relative;
+    position: absolute;
     display: inline-block;
     margin: 0px;
-    left: 560px;
+    top:10px;
+    right:0;
     /*border: 1px solid black;*/
     /*float: right;*/
 }
 
-    .user-activity a {
-        text-decoration: none;
-        padding: 20px;
-        font-family: 'Source Sans Pro', sans-serif;
+    .user-activity img {
+        height: 40px;
+        width: 40px;
+        padding-right: 10px;
     }
 
 #right-nav {
@@ -43,30 +45,31 @@
 
 .nav-links {
     position: relative;
-    display: inline-block;
-    top: 230px;
-    width: 399px;
+    display: block;
+    top: 250px;
+    width: 400px;
     text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(0,0,0,0.4);
 }
 
     .nav-links a {
-        padding: 25px;
+        padding: 13px 30px;
         text-decoration: none;
         font-size: 18px;
         font-weight: 500;
         font-family: 'Source Sans Pro', sans-serif;
+        color: white;
     }
 
         .nav-links a:hover {
+            background-color: black;
         }
 
 .store-image img {
     margin-top: 7%;
     display: block;
-}
-
-section {
-    /*padding: 0 30px;*/
 }
 
     section.info {
@@ -83,20 +86,21 @@ section {
 
 .info-img {
     border-radius: 100px;
+    border: 5px solid lightpink;
     float: left;
     padding: 0px;
     margin: 0px;
 }
 
 .info-text {
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 150px;
 }
 
 section.store {
     width: 100%;
     display: inline-block;
-    margin-top: 7%;
+    margin-top: 4%;
     text-align: left;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -109,10 +113,56 @@ section.store {
 
 .parallax {
     margin: 3% auto;
-    background-image: url("http://via.placeholder.com/1200x300");
+    background-image: url("../images/beans.jpg");
     height: 300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.details {
+    width: 100%;
+    height: 130px;
+    background-color: #ffdbe2;
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .details ul {
+        display: inline-block;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 0;
+        padding: 0;
+        width: 150px;
+        height: 100px;
+        list-style: none;
+        float: left;
+    }
+
+        .details ul li {
+            font-size:14px;
+        }
+
+        .details ul a {
+            color: #90526e;
+            text-decoration: none;
+        }
+            .details ul a:hover {
+                color: #6f3d54;
+                font-weight: 600;
+            }
+
+.copyright {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: #d5a3ad;
+    height: 50px;
+    line-height: 50px;
 }
